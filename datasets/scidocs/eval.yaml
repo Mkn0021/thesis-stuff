@@ -1,0 +1,9 @@
+name: SCIDOCS
+description: SciDocs, a new evaluation benchmark consisting of seven document-level
+  tasks ranging from citation prediction, to document classification and recommendation.
+evaluation_framework: mteb
+tasks:
+- id: SCIDOCS
+- id: SCIDOCS_default_test
+  config: default
+  split: test
